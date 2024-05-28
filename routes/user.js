@@ -8,7 +8,7 @@ router.post('/signup', async (req, res) => {
     const check = await Users.findOne({ email: req.body.email })
 
     if (check) {
-        return res.status(400).json({ success: false, error: "Existing User" })
+        return res.status(400).json({ success: false, message: "Existing User" })
     }
     const cart = {};
 
