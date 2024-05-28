@@ -1,2 +1,2 @@
-# E-Commerce-CRUD-API
-API for CRUD operations of my E-Commerce Project
+# Furniture-Store-CRUD-API
+Backend CRUD API for Furniture-Store project
