@@ -13,8 +13,10 @@ app.use(cors());
 
 const productRouter = require('./routes/product')
 const userRouter = require('./routes/user')
+const adminRouter = require('./routes/admin')
 app.use('/product', productRouter)
 app.use('/user', userRouter)
+app.use('/admin', adminRouter)
 
 app.get('/', (req, res) => {
     res.send('Express APP is running')
