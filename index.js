@@ -1,6 +1,6 @@
 require('dotenv').config();
 const cloudinary = require('cloudinary').v2;
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 const express = require('express')
 const multer = require('multer')
 const cors = require('cors');
